@@ -1,0 +1,71 @@
+html{
+    background-color: #c1d5dd;
+}
+
+.clock{
+    display: block;
+    margin: auto;
+    height:fit-content;
+    font-family: monospace;
+    text-align: center;
+    align-items: center;
+}
+
+.running{
+    font-size: 200px;
+    border: solid 5px black;
+    border-radius: 4px;
+    padding: 0;
+    width: 60vw;
+    margin: auto;
+    background: linear-gradient(white, rgba(169, 169, 169, 0.767), white)
+}
+
+.lap{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding-left: 10px;
+}
+.buttons{
+    display: block;
+    margin: auto;
+    height:fit-content;
+    font-family: monospace;
+    text-align: center;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+
+
+
+.lapButton,
+.startStop{
+    font-size: 40px;
+    height: 125px;
+    width: 150px;
+    text-align: center;
+    padding: 25px;
+    border-radius: 50%;
+    background: linear-gradient(lightgrey, darkgrey);
+    &:active{
+        background: linear-gradient(darkgrey, lightgrey);
+        border: 1px darkgrey solid;
+    }
+    outline: none;
+    border: darkgrey 3px solid;
+}
+
+img{
+    position: absolute;
+    right: 140px;
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    transform: rotate(15deg);
+}
+
+
+
